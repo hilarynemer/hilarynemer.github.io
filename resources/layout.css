@@ -2,9 +2,29 @@
  * Add your CSS styles here
  * 
  */
+ #p {
+ 	width: 300px;
+ }
 
-h3 {
-	color: 696969;
+ img {
+ 	width: 300px;
+ 	border-radius: 8px;
+ 	border-style:double;
+	border-color:red;
+ }
+
+ #main  {
+ 	float: left;
+ 	width: 500px;
+ 	padding-left: 25px;
+
+}
+
+#nav  {
+	float: left;
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 25px;
 }
 
 body {
@@ -12,8 +32,8 @@ body {
 	background: #f4f4f4;
 }
 
-h1, h2 {
-	color: #1E90FF;
+h1, h2, h3 {
+	color: #708090;
 }
 
 p {
@@ -32,15 +52,17 @@ a:hover {
 
 .content {
 	width: 940px;
-	margin: 0 auto;
+	margin: 10 auto;
 }
 
 #header  {
 	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
 }
 
 #nav {
-	margin: 0 20px 0 0;
+	margin:0px 0 0;
+	margin-top: -17px;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
 }
 
@@ -56,7 +78,12 @@ a:hover {
 }
 
 #aboutme {
-	border-bottom: solid 4px;
+	border-bottom: solid 2px;
+	width: 250px;
+}
+
+#projects {
+	margin-top: -4px;
 }
 
 
