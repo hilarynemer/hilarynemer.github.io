@@ -2,15 +2,21 @@
  * Add your CSS styles here
  * 
  */
- #p {
- 	width: 300px;
+ 
+h1 {
+ 	text-align: center; 
  }
 
- img {
+img {
  	width: 300px;
  	border-radius: 8px;
  	border-style:double;
-	border-color:red;
+ }
+
+ #p {
+ 	width: 500px;
+ 	text-align: center;
+ 	margin-left: 200px
  }
 
  #main  {
@@ -28,12 +34,12 @@
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Courier New, Arial, sans-serif;
 	background: #f4f4f4;
 }
 
 h1, h2, h3 {
-	color: #708090;
+	color: #000000;
 }
 
 p {
@@ -78,12 +84,24 @@ a:hover {
 }
 
 #aboutme {
-	border-bottom: solid 2px;
-	width: 250px;
+	border-bottom: solid 1px; text-align: 
+	width: 275px;
 }
 
 #projects {
 	margin-top: -4px;
+	background-color: white;
+	text-align: center;
+}
+
+#hobbies {
+	background-color: white;
+	text-align: center;
+}
+
+#fun-facts {
+	background-color: white;
+	text-align: center;
 }
 
 

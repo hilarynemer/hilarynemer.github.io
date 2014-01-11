@@ -7,7 +7,6 @@ $(document).ready(function() {
 	});
 });
 
-
 // function replaceName() {
 //     var myNewName = window.prompt('Pick a new name!');
 //     document.getElementById('username').innerHTML = myNewName;
